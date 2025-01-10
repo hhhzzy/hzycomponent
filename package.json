@@ -1,0 +1,33 @@
+{
+  "name": "hzy-oa-components",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "module": "es/index.mjs",
+  "files": [
+    "es",
+    "lib"
+  ],
+  "keywords": [
+    "hzy",
+    "vue组件库",
+    "element ui二次封装组件库"
+  ],
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "author": "hzy",
+  "license": "ISC",
+  "typings": "lib/index.d.ts",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "scripts": {
+    "release": "release-it"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hhhzzy/hzycomponent"
+  }
+}
