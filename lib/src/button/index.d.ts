@@ -1,4 +1,4 @@
-export declare const Button: import('packages/utils/typescript').SFCWithInstall<{
+export declare const Button: import('../utils/typescript').SFCWithInstall<{
     new (...args: any[]): import('vue').CreateComponentPublicInstanceWithMixins<Readonly<{}> & Readonly<{}>, {}, {}, {}, {}, import('vue').ComponentOptionsMixin, import('vue').ComponentOptionsMixin, {}, import('vue').PublicProps, {}, true, {}, {}, import('vue').GlobalComponents, import('vue').GlobalDirectives, string, {}, HTMLButtonElement, import('vue').ComponentProvideOptions, {
         P: {};
         B: {};
